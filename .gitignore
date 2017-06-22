@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EventHubReceiver/bin/Debug
+/EventHubReceiver/obj/Debug
+/packages
+/.vs/slnx.sqlite
