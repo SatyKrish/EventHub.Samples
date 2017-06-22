@@ -6,3 +6,7 @@
 /EventHubReceiver/obj/Debug
 /packages
 /.vs/slnx.sqlite
+/.vs/slnx.sqlite-journal
+/.vs/EventHubSamples/v15/.suo
+/src/EventHubReceiver/bin/Debug
+/src/EventHubReceiver/obj
