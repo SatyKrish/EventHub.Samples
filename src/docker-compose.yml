@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  eventhubreceivercore:
+    image: eventhubreceivercore
+    build:
+      context: .
+      dockerfile: EventHubReceiverCore/Dockerfile

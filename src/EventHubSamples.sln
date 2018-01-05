@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubReceiver", "EventHubReceiver\EventHubReceiver.csproj", "{BEABD42F-6DEF-4391-BEC8-8BA80BDDF12D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubReceiverCore", "EventHubReceiverCore\EventHubReceiverCore.csproj", "{33C2E449-5CBD-4CE6-AFAE-75F2E28DC79A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A2C67DDF-FCD9-4D9C-917F-763A9C6C7A50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,17 +19,19 @@ Global
 		{BEABD42F-6DEF-4391-BEC8-8BA80BDDF12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEABD42F-6DEF-4391-BEC8-8BA80BDDF12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEABD42F-6DEF-4391-BEC8-8BA80BDDF12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C2E449-5CBD-4CE6-AFAE-75F2E28DC79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C2E449-5CBD-4CE6-AFAE-75F2E28DC79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C2E449-5CBD-4CE6-AFAE-75F2E28DC79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C2E449-5CBD-4CE6-AFAE-75F2E28DC79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C67DDF-FCD9-4D9C-917F-763A9C6C7A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C67DDF-FCD9-4D9C-917F-763A9C6C7A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C67DDF-FCD9-4D9C-917F-763A9C6C7A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C67DDF-FCD9-4D9C-917F-763A9C6C7A50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://satyworkspace.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = EventHubReceiver\\EventHubReceiver.csproj
-		SccProjectName1 = EventHubReceiver
-		SccLocalPath1 = EventHubReceiver
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D767ECD-1483-4D4E-985F-D429E590420C}
 	EndGlobalSection
 EndGlobal
